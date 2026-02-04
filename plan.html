@@ -3,17 +3,22 @@
   <head>
     <title>Blueprint 3D - Example</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/example.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/example.css" rel="stylesheet">
 
-    <script src="js/three.min.js"></script>
-    <script src="js/blueprint3d.js"></script>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <!-- Load jQuery first as other scripts depend on it -->
+    <script src="/js/jquery.js"></script>
     
-    <script src="js/items.js"></script>
-    <script src="js/example.js"></script>
+    <!-- Load THREE.js before blueprint3d.js -->
+    <script src="/js/three.min.js"></script>
+    <script src="/js/blueprint3d.js"></script>
+
+    <!-- Load Bootstrap after jQuery -->
+    <script src="/js/bootstrap.js"></script>
+    
+    <!-- Load custom scripts last -->
+    <script src="/js/items.js"></script>
+    <script src="/js/example.js"></script>
   </head>
 
   <body>
